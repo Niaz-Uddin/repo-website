@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.home {
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-head {
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+margin-bottom:35px;
+}
+.head-pera {
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+}
+.btn {
+    margin-top: 35px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #E55473;
+    color: #FFFFFF;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.home-img {
+    width: 600px;
+height: 770px;
+margin-right: 210px;
+}
