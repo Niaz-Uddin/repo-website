@@ -169,8 +169,6 @@ font-weight: 400;
         background-color: #F8C8DC;
         padding: 50px;
         border-radius: 300px 300px 0px 0px;
-        /* border-top-left-radius: 200px; */
-        /* border-top-right-radius: 200px; */
     }
 .img1 {
     height: 458px;
@@ -277,10 +275,10 @@ align-items: center;}
     height: 300px;
     display: flex;
 }
-.ban-cont{
+.ban-cont{ 
+    background-image: url("Rectangle\ 9.png");
     width: 80%;
     height: 30vh;
-    background-image: url("Rectangle\ 9.png");
     padding-top: 100px;
     text-align: center;
     margin-left: 150px;
@@ -294,7 +292,7 @@ align-items: center;}
     display: flex;
     justify-content: center;
     align-items: center;}
-    .email{
+.email{
  width: 50%;
 height: 40px;
 margin-right: 8px;
@@ -327,16 +325,15 @@ background-color: rgb(245, 101, 101);
     justify-content: center;
 }
 .foot-h2{
-    color: #E55473;
 font-size: 48px;
 font-weight: 800;
-}
-.text-foot{
-    text-align: center;
+color: #E55473;
 }
 .footer-head{
     margin-bottom: 10px;
 }
 .footer-span {
     color:#ffffff;
+}.text-foot{
+    text-align: center;
 }
